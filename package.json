@@ -1,6 +1,6 @@
 {
   "name": "front-end-environment",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "My simple front-end environment",
   "main": "index.js",
   "scripts": {

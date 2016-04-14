@@ -1,6 +1,5 @@
-`npm install front-end-environment`
-
 # Front-end environment
+`npm install front-end-environment`
 My simple front-end environment using Gulp.
 
 # Dependencies
