@@ -1,6 +1,13 @@
 # Front-end environment
 My simple front-end environment using Gulp.
 
+# Dependencies
+* gulp
+* gulp-uglify
+* gulp-concat
+* gulp-sass
+* browser-sync
+
 # Usage
 1. Fork the repository
 2. Clone the repository `git clone git@github.com:YOUR_USERNAME/front-end-environment.git`
