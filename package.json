@@ -1,0 +1,18 @@
+{
+  "name": "front-end-environment",
+  "version": "1.0.0",
+  "description": "My simple front-end environment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yuri Brunetto",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.12.3",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-sass": "^2.2.0",
+    "gulp-uglify": "^1.5.3"
+  }
+}
