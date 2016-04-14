@@ -27,7 +27,7 @@ gulp.task("sass", function() {
 // Reload when saving js
 gulp.task("js-watch", ["js"], browserSync.reload);
 
-// Uglify .js files
+// Uglify .js files and put them in /dist folder
 gulp.task("js", function(){
     return gulp.src("./js/**/*.js")
         .pipe(concat("core.js"))
@@ -36,4 +36,5 @@ gulp.task("js", function(){
         .pipe(browserSync.stream());
 });
 
+// Run default task
 gulp.task("default", ["serve"]);

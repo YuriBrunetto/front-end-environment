@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Yuri Brunetto",
+  "author": "Yuri Brunetto <yuribrunetto@hotmail.com.br> (http://www.ybrntt.com.br)",
   "license": "MIT",
   "devDependencies": {
     "browser-sync": "^2.12.3",
