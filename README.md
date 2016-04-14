@@ -9,8 +9,7 @@ My simple front-end environment using Gulp.
 * browser-sync
 
 # Usage
-1. Fork the repository
-2. Clone the repository `git clone git@github.com:YOUR_USERNAME/front-end-environment.git`
-3. `cd front-end-environment` and run `npm install` to install dependencies 
-4. `gulp` to run your server
-5. Done!
+1. Clone the repository `git clone git@github.com:YuriBrunetto/front-end-environment.git`
+2. `cd front-end-environment` and run `npm install` to install dependencies 
+3. `gulp` to run your server
+4. Done!
