@@ -31,7 +31,9 @@ gulp.task("js-watch", ["js"], browserSync.reload);
 gulp.task("js", function(){
     return gulp.src("./js/**/*.js")
         .pipe(concat("core.js"))
-        .pipe(uglify())
+        .pipe(uglify().on("error", function(e){
+            console.log(e);
+        }))
         .pipe(gulp.dest("./dist"))
         .pipe(browserSync.stream());
 });
