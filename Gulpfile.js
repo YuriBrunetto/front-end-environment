@@ -5,6 +5,7 @@ var uglify = require("gulp-uglify");
 var browserSync = require("browser-sync").create();
 var sass = require("gulp-sass");
 var concat = require("gulp-concat");
+var autoprefixer = require("gulp-autoprefixer");
 
 gulp.task("serve", ["sass"], function() {
     browserSync.init({
@@ -19,6 +20,7 @@ gulp.task("serve", ["sass"], function() {
 // Compile sass into CSS & auto-inject into browsers
 gulp.task("sass", function() {
     return gulp.src("./scss/*.scss")
+        .pipe(autoprefixer())
         .pipe(sass({outputStyle: "compressed"}).on("error", sass.logError))
         .pipe(gulp.dest("./css"))
         .pipe(browserSync.stream());
