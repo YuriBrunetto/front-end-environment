@@ -6,6 +6,7 @@ My simple front-end environment using Gulp.
 * gulp-uglify
 * gulp-concat
 * gulp-sass
+* gulp-autoprefixer
 * browser-sync
 
 # Libs
