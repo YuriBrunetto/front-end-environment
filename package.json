@@ -1,8 +1,12 @@
 {
   "name": "front-end-environment",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "description": "My simple front-end environment",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/YuriBrunetto/front-end-environment.git"
+ },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
